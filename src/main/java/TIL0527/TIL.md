@@ -20,3 +20,8 @@
     - 1) sorted( (a,b) -> b.compateTo(a));
     - 2) sorted(Comparator.reverseOrder());
 - Comparator로 구현하려면 sorted( (a,b) -> {...}) 이렇게 하면 됨
+
+### 루핑
+- 루핑은 요소 전체를 반복하는 것을 말한다.
+- peek() -> 중간처리 메서드
+- forEach() -> 최종처리 메서드
