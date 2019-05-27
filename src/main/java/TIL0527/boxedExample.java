@@ -1,0 +1,16 @@
+package TIL0527;
+
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
+public class boxedExample {
+    public static void main(String[] args) {
+        int[] intArray = {1, 2, 3, 4, 5};
+
+        IntStream intStream = Arrays.stream(intArray);
+        intStream.boxed().forEach(obj -> {
+            System.out.println(obj.intValue());
+            System.out.println(obj);
+        });
+    }
+}
