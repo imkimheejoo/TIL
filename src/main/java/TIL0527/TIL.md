@@ -11,7 +11,7 @@
 - mapXXX() -> 요소를 대체하는 요소로 구성된 새로운 스트림을 리턴한다. 
 - asDoubleStream() -> IntStream의 int요소 또는 LongStream의 long요소를 double요소 타입 변환해서 DoubleStream을 생성한다.
 - asLongStream() -> IntStream의 int요소를 long요소로 타입 변환해서 LongStream을 생성한다.
-- boxed() -> int,long,double 요소를 Integer,Long,Double요소로 박싱해서 Stream을 생성한다.
+- boxed() -> int,long,double 요소를 Integer,Long,Double요소로 박싱해서 Stream<요소타입>을 생성한다.
 
 ### 정렬
 - sorted() -> 객체를 Comparable 구현 방법에 따라 정렬 (리턴은 요소의 타입에 따라 IntStream,DoubleStream,LongStream)
@@ -25,8 +25,3 @@
 - 루핑은 요소 전체를 반복하는 것을 말한다.
 - peek() -> 중간처리 메서드
 - forEach() -> 최종처리 메서드
-
-### 매칭 TODO
-- allMatch(조건식) -> 조건이 모두 해당하면 true
-- anyMatch(조건식) -> 조건이 하나라도 해당하면 true
-- noneMatch(조건식) -> 조건이 모두 해당하지 않으면 true
