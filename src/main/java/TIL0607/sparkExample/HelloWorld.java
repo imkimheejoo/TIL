@@ -4,6 +4,7 @@ import static spark.Spark.*;
 
 public class HelloWorld {
     public static void main(String[] args) {
+        staticFiles.location("/static"); // ->src/resources/static 에서 정적파일을 관리함
         //이름을 동적으로 값이 바뀌도록 전달 -> 콜론
         // /hello/heejoo로 요청하면 웹에 Hello heejoo! 이렇게 뜸
         get("/hello/:name", (req, res) ->
@@ -17,7 +18,11 @@ public class HelloWorld {
 
         //값을 여러개 전달 -> hi?name=heejoo&age=24
         get("/hi", (req, res) ->
-                "Hi " + req.queryParams("name") + " 나이는" + req.queryParams("age") + "!"
+                "Get : Hi " + req.queryParams("name") + " 나이는" + req.queryParams("age") + "!"
+        );
+
+        post("/hi", (req, res) ->
+                "Post : Hi " + req.queryParams("name") + " 나이는" + req.queryParams("age") + "!"
         );
     }
 
