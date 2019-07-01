@@ -1,7 +1,7 @@
 package ds;
 
 public enum d {
-    QUUEN(true,10),KING(true,0);
+    QUUEN(true, 10), KING(true, 0);
 
     boolean alive;
     int score;

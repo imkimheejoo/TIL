@@ -1,14 +1,18 @@
 package TIL0529;
-/** EnumClass는 다른 클래스와 마찬가지로 java파일,클래스 안,클래스 밖 선언이 가능**/
+
+/**
+ * EnumClass는 다른 클래스와 마찬가지로 java파일,클래스 안,클래스 밖 선언이 가능
+ **/
 
 
 public class Developer {
     public String name;
     public int career;
-    /** 클래스 내부 Enum 선언
-    public enum DevType {
-        MOBILE ,WEB, SERVER
-    }
+    /**
+     * 클래스 내부 Enum 선언
+     * public enum DevType {
+     * MOBILE ,WEB, SERVER
+     * }
      **/
     public DevType type;
 
@@ -24,7 +28,9 @@ public class Developer {
         System.out.println("직무파트: " + developer.type);
     }
 }
-/**클래스 밖 선언
-enum Type {
-    MOBILE, WEB, SERVER
-}**/
+/**
+ * 클래스 밖 선언
+ * enum Type {
+ * MOBILE, WEB, SERVER
+ * }
+ **/

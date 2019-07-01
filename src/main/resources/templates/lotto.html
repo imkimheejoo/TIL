@@ -67,19 +67,17 @@
     </form>
     <script>
         function showLotto() {
-            var text="";
-            for(var i=1; i<=6; i++)
-            {
+            var text = "";
+            for (var i = 1; i <= 6; i++) {
                 //document.getElementById("num"+i) => id가 num1,num2,num3,num4,num5,num6인 태그의 값을 가져옴
                 //단 항상 value를 해야함 안그러면 이상한 영어 나옴
-                text+=document.getElementById("num"+i).value+",";
+                text += document.getElementById("num" + i).value + ",";
             }
             //innerHTML => 이 HTML에 쓰겟다.
-            document.getElementById('demo').innerHTML=text
+            document.getElementById('demo').innerHTML = text
 
-            for(var i=1; i<=6; i++)
-            {
-                document.getElementById("num"+i).value=1;
+            for (var i = 1; i <= 6; i++) {
+                document.getElementById("num" + i).value = 1;
             }
         }
     </script>

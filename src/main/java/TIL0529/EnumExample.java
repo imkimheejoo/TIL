@@ -9,6 +9,7 @@ public class EnumExample {
 //        gender = "boy" -> //컴파일 에러
     }
 }
-enum Gender{
-    MALE,FEMALE;
+
+enum Gender {
+    MALE, FEMALE;
 }

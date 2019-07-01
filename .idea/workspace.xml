@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988ae1e2-abdb-4fee-b096-153667cf3514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0627/BadSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0627/GoodSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0627/TIL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ds/d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0627/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0627/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0627/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0701/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TIL0701/TIL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/helloworld.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/helloworld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/ComparatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/ComparatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/HashSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/HashSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/UsingLocalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/UsingLocalVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/UsingThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/UsingThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0519/UsingThisExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0519/UsingThisExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0526/FromIntRangeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0526/FromIntRangeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0526/MapAndReduceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0526/MapAndReduceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0526/StreamPipelinesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0526/StreamPipelinesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0526/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0526/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0527/FilteringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0527/FilteringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0527/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0527/FlatMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0527/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0527/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0528/AggregateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0528/AggregateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0528/CollectorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0528/CollectorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0528/OptionalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0528/OptionalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0529/CreateLottoNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0529/CreateLottoNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0529/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0529/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0529/EnumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0529/EnumExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0529/LottoNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0529/LottoNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0529/TurboPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0529/TurboPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0605/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0605/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0607/sparkExample/UserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0607/sparkExample/UserMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0609/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0609/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0609/MyTemplateEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0609/MyTemplateEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0613/CaffeineBeverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0613/CaffeineBeverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0613/CaffeineBeverageWithHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0613/CaffeineBeverageWithHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0613/CoffeeWithHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0613/CoffeeWithHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0613/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0613/Tea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0613/TeaWithHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0613/TeaWithHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0627/BadSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0627/BadSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TIL0627/GoodSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TIL0627/GoodSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ds/d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helloworld.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helloworld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/lotto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/lotto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,27 +84,69 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/BadSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="69">
               <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/GoodSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/Calculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TIL0701/TIL.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="276">
+                <caret line="12" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TIL0701/Compare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -84,11 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/TIL0528/TIL.md" />
-        <option value="$PROJECT_DIR$/src/main/java/TIL0528/CollectorExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TIL0529/Turbo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TIL0529/Plane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TIL0529/TurboPlane.java" />
         <option value="$PROJECT_DIR$/src/main/java/TIL0529/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/TIL0529/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/TIL0529/Gender.java" />
@@ -135,13 +214,18 @@
         <option value="$PROJECT_DIR$/src/main/java/TIL0627/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/TIL0627/BadSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/TIL0627/GoodSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TIL0627/Calculation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TIL0627/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TIL0627/Function.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TIL0701/TIL.md" />
+        <option value="$PROJECT_DIR$/src/main/java/TIL0701/Compare.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="792" />
-    <option name="width" value="816" />
-    <option name="height" value="867" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,8 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +271,14 @@
               <item name="temp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TIL0701" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,6 +307,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,13 +351,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TIL0609.HelloWorld" />
       <module name="practice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TIL0609.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TIL0627.Main" />
+      <module name="practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TIL0627.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,19 +404,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTemplateEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TIL0609.MyTemplateEngine" />
-      <module name="practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TIL0609.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TIL0607.sparkExample.UserMain" />
       <module name="practice.main" />
@@ -327,11 +419,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.UserMain" />
-        <item itemvalue="Application.MyTemplateEngine" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +459,8 @@
       <workItem from="1560337045386" duration="45000" />
       <workItem from="1560412120712" duration="3476000" />
       <workItem from="1560481400410" duration="1408000" />
-      <workItem from="1561620959234" duration="597000" />
+      <workItem from="1561620959234" duration="2762000" />
+      <workItem from="1561957035260" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 템플릿 메서드 설명">
       <created>1560412396068</created>
@@ -390,17 +483,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560415595379</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: singleton패턴">
+      <created>1561621576366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561621576367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83089000" />
+    <option name="totallyTimeSpent" value="86123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22348177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11497976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -409,7 +509,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13345195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22202165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,7 +518,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32740214" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3267148" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -473,7 +573,8 @@
     <MESSAGE value="feat: 템플릿 메서드 설명" />
     <MESSAGE value="feat: hook 개념 적용" />
     <MESSAGE value="feat: hook 개념 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: hook 개념 추가" />
+    <MESSAGE value="feat: singleton패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: singleton패턴" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,45 +603,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0604/FlowController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0605/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0605/Direction2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="82" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0531/TIL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0529/CreateLottoNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TIL0529/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -946,13 +1008,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/BadSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="69">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,6 +1025,44 @@
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0627/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0701/TIL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="276">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TIL0701/Compare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>

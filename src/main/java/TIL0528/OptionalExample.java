@@ -9,20 +9,20 @@ public class OptionalExample {
         List<Integer> list = new ArrayList<>();
 
         /** 예외발생(NoSuchElementException)
-        double avg = list.stream()
-                .mapToInt(Integer :: intValue)
-                .average()
-                .getAsDouble();
-        */
+         double avg = list.stream()
+         .mapToInt(Integer :: intValue)
+         .average()
+         .getAsDouble();
+         */
 
         //방법1
         OptionalDouble optional = list.stream()
-                .mapToInt(Integer :: intValue)
+                .mapToInt(Integer::intValue)
                 .average();
 
-        if(optional.isPresent()) {
+        if (optional.isPresent()) {
             System.out.println("방법1: 평균: " + optional.getAsDouble());
-        }else{
+        } else {
             System.out.println("방법1: 평군: 0.0");
         }
 
@@ -37,7 +37,7 @@ public class OptionalExample {
 
         //방법3
         list.stream()
-                .mapToInt(Integer :: intValue)
+                .mapToInt(Integer::intValue)
                 .average()
                 .ifPresent(a -> System.out.println("방법3_평균: " + a));
     }

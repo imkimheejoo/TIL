@@ -12,7 +12,7 @@ public class GoodSingleton {
     private GoodSingleton() {
     }
 
-    public static GoodSingleton getInstance(){
+    public static GoodSingleton getInstance() {
         return unique;
     }
 }

@@ -1,6 +1,6 @@
 package TIL0613;
 
-public class Tea extends CaffeineBeverage{
+public class Tea extends CaffeineBeverage {
     @Override
     void addCondiments() {
         System.out.println("레몬을 추가한다.");

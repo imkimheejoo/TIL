@@ -10,13 +10,14 @@ public abstract class CaffeineBeverage {
     }
 
     abstract void addCondiments();
+
     abstract void brew();
 
-    void pourInCup(){
+    void pourInCup() {
         System.out.println("컵에 붓습니다.");
     }
 
-    void boilWater(){
+    void boilWater() {
         System.out.println("물을 끓입니다.");
     }
 

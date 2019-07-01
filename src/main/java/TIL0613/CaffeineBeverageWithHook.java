@@ -5,7 +5,7 @@ public abstract class CaffeineBeverageWithHook {
         boilWater();
         brew();
         pourInCup();
-        if(customerWantsCondiments()) {
+        if (customerWantsCondiments()) {
             addCondiments();
         }
     }

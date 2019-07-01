@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FlatMapExample {
     public static void main(String[] args) {
-        List<String> inputList1 = Arrays.asList("java8 lambda","stream mapping");
+        List<String> inputList1 = Arrays.asList("java8 lambda", "stream mapping");
         inputList1.stream().flatMap(data -> Arrays.stream(data.split(" "))).forEach(word -> System.out.println(word));
 
         System.out.println();
@@ -17,7 +17,7 @@ public class FlatMapExample {
             for (int i = 0; i < strArr.length; i++) {
                 intArr[i] = Integer.parseInt(strArr[i].trim());
             }
-             return Arrays.stream(intArr);
+            return Arrays.stream(intArr);
         }).forEach(number -> System.out.println(number));
 
     }

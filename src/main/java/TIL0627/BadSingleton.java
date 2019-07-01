@@ -10,7 +10,7 @@ public class BadSingleton {
         this.uniqueSingle = new BadSingleton();
     }
 
-    public static BadSingleton getInstance(){
+    public static BadSingleton getInstance() {
         return new BadSingleton();
     }
 

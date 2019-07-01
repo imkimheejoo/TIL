@@ -17,9 +17,9 @@ public class CoffeeWithHook extends CaffeineBeverageWithHook {
 
     //후크를 오버라이드
     public boolean customerWantsCondiments() {
-        String answer =  getUserInput();
+        String answer = getUserInput();
 
-        if(answer.toLowerCase().startsWith("y")) {
+        if (answer.toLowerCase().startsWith("y")) {
             return true;
         }
         return false;
@@ -35,7 +35,7 @@ public class CoffeeWithHook extends CaffeineBeverageWithHook {
         } catch (IOException ioe) {
             System.err.println("IOE 오류");
         }
-        if(answer == null) {
+        if (answer == null) {
             return "no";
         }
         return answer;

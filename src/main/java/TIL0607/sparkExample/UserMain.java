@@ -18,13 +18,13 @@ public class UserMain {
         List<User> users = new ArrayList<>();
 
         post("/users", (req, res) -> {
-                User user = new User();
-                user.setName(req.queryParams("name"));
-                user.setAge(req.queryParams("age"));
-                users.add(user);
-                Map<String, Object> model = new HashMap<>();
-                model.put("users", users);
-                System.out.println("ㅋㅋ");
+                    User user = new User();
+                    user.setName(req.queryParams("name"));
+                    user.setAge(req.queryParams("age"));
+                    users.add(user);
+                    Map<String, Object> model = new HashMap<>();
+                    model.put("users", users);
+                    System.out.println("ㅋㅋ");
 
                     return render(model, "result.html");
                 }
