@@ -6,6 +6,6 @@ public class Compare {
      * 이 메서드를 sort의 인자로 전달
      */
     public int comparaeUsingCustomerId(String inv1,String inv2) {
-
+        return 0;
     }
 }
