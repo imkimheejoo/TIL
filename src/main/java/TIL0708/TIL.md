@@ -20,6 +20,10 @@
     - Consumer<T> 인터페이스는 제네릭 형식 T객체를 인수로 받아서 어떤 동작을 수행하고 싶을 때 쓴다.(리턴타입 void)
     - Function<T,R> 인터페이스는 제네릭 형식 T를 인수로 받아서 제네릭 형식 R을 반환하는 apply라는 추상 메서드를 정의 한다.
         - 입력을 출력으로 매핑하는 람다를 정의할 때 Function인터페이스를 사용할 수 있다.
+- 기본형 특화
+    - 오토박싱은 비용이 많이 들기 때문에 지양해야함
+    - 이를 방지하기 위한 함수형 인터페이스를 만들었다 -> IntPredicate,DoublePredicate,,,        
+
 - expression(표현식) vs statements(실행문)
     - expression : 평가(evaluate)가 가능해서 하나의 ‘값’으로 환원
     - statement : 우리가 프로그래밍을 하면서 컴파일러가 이해하고 실행할 수 있는 모든 구문                        
