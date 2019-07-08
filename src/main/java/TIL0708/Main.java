@@ -1,6 +1,5 @@
 package TIL0708;
 
-import TIL0609.HelloWorld;
 
 public class Main {
     /**
@@ -35,9 +34,9 @@ public class Main {
                 System.out.println("Hello World 4");        //내부에서 만든 익명 클래스
             }
         });
-
     }
-    public static void process(Runnable r){
+    public static void process(Runnable r) {
         r.run();
     }
+
 }
