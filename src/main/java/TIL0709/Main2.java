@@ -29,6 +29,12 @@ public class Main2 {
         System.out.println(redApples2.size());
         System.out.println(c.compare(new Apple("red",150),new Apple("green",190)));
         System.out.println(c2.compare(new Apple("red",150),new Apple("green",190)));
+
+
+        //자유변수
+        final int portNumber =1337;
+        Runnable r = () -> System.out.println(portNumber);
+        r.run();
     }
 
 }
