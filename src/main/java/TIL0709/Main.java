@@ -10,27 +10,11 @@ import java.util.List;
 
 
 public class Main {
-    /**
-     * 람다가 전달될 메서드 파라미터나 람다가 할당되는 변수 등 에서 기대되는 람다 표현의 형식을 대상형식이라고 부른다.
-     * @param args
-     */
     public static void main(String[] args) {
-        List<Apple> inventory = Arrays.asList(new Apple("red",150),new Apple("green",170));
-        List<Apple> havierThan150g = filter(inventory,(Apple a) -> a.getWeight()>150);
-    }
+        List<Apple> inventory = Arrays.asList(new Apple("red",150),new Apple("green",190));
+        List<Apple> heavierThan150g = filter(inventory,(Apple a)->a.getWeight() > 150); //1) filter메서드의 선언을 확인 -> 2)filter 메서드는 두 번쨰 파라미터로 Predicate<Apple> 대상형식을 기대함.
 
-    /**
-     * Predicate<Apple>이 대상형식
-     * 함수 디스크립터는 Apple(입력) -> boolean(결과)
-     */
-    private static List<Apple> filter(List<Apple> inventory, Predicate<Apple> p) {
-        List<Apple> havierApples = new ArrayList<>();
-        for(Apple apple : inventory){
-            if(p.test(apple)){
-                havierApples.add(apple);
-            }
-        }
-        return havierApples;
+        System.out.println(heavierThan150g.get(0).getColor()+","+heavierThan150g.get(0).getWeight());
     }
 
     // 3)Predicate<Apple> 은 test라는 한 개의 추상메서드를 정의하는 함수형 인터페이스이다.
