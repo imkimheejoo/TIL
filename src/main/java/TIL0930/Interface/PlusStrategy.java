@@ -1,4 +1,6 @@
-package TIL0930;
+package TIL0930.Interface;
+
+import TIL0930.Interface.CalculateStrategy;
 
 public class PlusStrategy implements CalculateStrategy {
     @Override

@@ -10,7 +10,7 @@ public class Developer {
     public int career;
     /**
      * 클래스 내부 Enum 선언
-     * public enum DevType {
+     * public Enum DevType {
      * MOBILE ,WEB, SERVER
      * }
      **/
@@ -30,7 +30,7 @@ public class Developer {
 }
 /**
  * 클래스 밖 선언
- * enum Type {
+ * Enum Type {
  * MOBILE, WEB, SERVER
  * }
  **/

@@ -1,10 +1,10 @@
-package TIL0930;
+package TIL0930.Interface;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class SrpExample {
+public class InterfaceExample {
     private static final Map<String, CalculateStrategy> calculators = new HashMap<>();
 
     static {
