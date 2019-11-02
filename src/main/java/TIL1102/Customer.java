@@ -6,4 +6,18 @@ public class Customer {
     public Wallet getWallet() {
         return wallet;
     }
+
+    public int calculate(int payment) {
+        if(wallet == null) {
+            throw new NotEnoughMoneyException();
+        }
+        if (wallet.getTotalMoney() >= payment) {
+            wallet.substractMoney(payment);
+            return payment;
+        }
+        else {
+            throw new NotEnoughMoneyException();
+        }
+
+    }
 }

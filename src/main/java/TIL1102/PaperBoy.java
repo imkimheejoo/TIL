@@ -18,5 +18,14 @@ public class PaperBoy {
         }
     }
 
+    public void execute2(Customer customer) {
+        int payment = 10000;
+        try {
+            customer.calculate(payment);
+        } catch (NotEnoughMoneyException e) {
+            System.out.println("나중에 다시 오겠습니다.");
+        }
+    }
+
 
 }
