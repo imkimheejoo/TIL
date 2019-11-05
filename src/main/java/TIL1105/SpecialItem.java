@@ -10,6 +10,11 @@ public class SpecialItem extends Item {
     }
 
     @Override
+    public boolean isDiscountAvailable() {
+        return false;
+    }
+
+    @Override
     public int getPrice() {
         return super.getPrice();
     }

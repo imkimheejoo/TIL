@@ -9,7 +9,10 @@ public class Coupon {
     }
 
     public int calculateDiscountAmount(Item item) {
-        if(item instanceof SpecialItem) {   //리스코프치환원칙 위배
+//        if(item instanceof SpecialItem) {   //리스코프치환원칙 위배
+//            return 0;
+//        }
+        if(item.isDiscountAvailable()) {
             return 0;
         }
         return (int) (item.getPrice() * discountRate);

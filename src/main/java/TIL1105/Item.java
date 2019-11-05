@@ -7,6 +7,10 @@ public class Item {
         this.price = price;
     }
 
+    public boolean isDiscountAvailable() {
+        return true;
+    }
+
     public int getPrice() {
         return price;
     }
